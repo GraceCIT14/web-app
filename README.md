@@ -1,7 +1,7 @@
 # Anime Favorites Web Application
 
 ## Description
-The **Anime Favorites** web application allows users to track and share their favorite anime. Users can add their favorite anime by entering their name and the anime they love, update their entries, and delete them if necessary. The app provides an interactive interface using Tailwind CSS to make the experience visually appealing.
+The **Anime Favorites** web application allows users to track and share their favorite anime. Users can add their favorite anime by entering their name and the anime they love or delete them if necessary. The app provides an interactive interface using Tailwind CSS to make the experience visually appealing.
 
 ## Features
 - Add new favorite anime
@@ -22,7 +22,7 @@ Before running this project locally, make sure you have the following installed:
 1. **Clone the repository**:
    Open your terminal and run the following command to clone the repository:
 
-   git clone https://github.com/your-username/anime-favorites.git
+   git clone https://github.com/CamilGrace/web-app.git
 
 2. **Navigate to the project directory**:
 
