@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Favorites</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Favorite Anime List</h1>
+        <p>Track and share your favorite anime!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Enter Your Favorite Anime</h2>
+            <form action="/add" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="text" name="description" placeholder="Favorite Anime" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Favorite Anime</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{items}}
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anime Favorites. Designed with ❤️.</p>
+    </footer>
+</body>
+</html>
